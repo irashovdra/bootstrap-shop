@@ -1,0 +1,19 @@
+.btn-section {
+  padding-top: 120px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.btn-list {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.btn-list__link {
+  color: rgb(92, 90, 90);
+}
+
+.btn-list__btn {
+  font-size: 18px;
+}
