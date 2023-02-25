@@ -2,6 +2,13 @@
     padding-top: 60px;
 }
 
+.cards-section__title {
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
 .cards {
     display: flex;
     gap: 30px;
