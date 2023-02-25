@@ -1,4 +1,18 @@
+.slides {
+    padding-bottom: 50px;
+}
+
+.slides-carousel {
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+    border: 1px gray solid;
+}
+
 .slides__title {
-    font-size: 35px;
+    display: flex;
+    font-size: 40px;
     justify-content: center;
+    margin-bottom: 40px;
 }

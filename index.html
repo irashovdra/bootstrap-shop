@@ -51,14 +51,13 @@
         <div class="container-md">
           <ul class="btn-list">
             <li class="btn-list__item">
-              <button type="button" class="btn btn-outline-primary btn-list__btn">Усе</button>
+              <button type="button" class="btn btn-outline-primary btn-list__btn"><a href="#cards">Усе</a></button>
             </li>
             <li class="btn-list__item">
               <button
                 type="button"
                 class="btn btn-outline-primary btn-list__btn"
-              >
-                Новинки
+              ><a href="#new">Новинки</a>
               </button>
             </li>
             <li class="btn-list__item">
@@ -82,7 +81,7 @@
 
       <!-- Карточки  -->
 
-      <section class="cards-section">
+      <section class="cards-section" id="cards">
         <div class="container-md">
           <ul class="cards">
             <li class="card-item">
@@ -262,10 +261,10 @@
 
       <!-- Слайди  -->
       
-      <section class="slides">
+      <section class="slides" id="new">
         <div class="container-md">
             <h2 class="slides__title">Новинки</h2>
-            <div id="carouselExample" class="carousel slide">
+            <div id="carouselExample" class="carousel slide slides-carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="./images/car-slide1.avif" class="d-block w-100" alt="photo">
@@ -292,7 +291,25 @@
 
     <!-- Футер  -->
 
-    <footer></footer>
+    <footer>
+      <section>
+        <div class="container-md container">
+        <ul class="footer-contacts">
+          <li class="footer-contacts__item"><svg class="footer-contacts__icon" width="20" height="20"><use href="./images/symbol-defs.svg#email"></use></svg><a class="footer-contacts__link" href="mailto:car@shop.ua">car@shop.ua</a></li>
+          <li class="footer-contacts__item"><svg class="footer-contacts__icon" width="20" height="20"><use href="./images/symbol-defs.svg#phone"></use></svg><a class="footer-contacts__link" href="tel:+380984739502">+380 98 4739 502</a></li>
+          <li class="footer-contacts__item"><svg class="footer-contacts__icon" width="20" height="20"><use href="./images/symbol-defs.svg#location"></use></svg><address class="footer-contacts__link">Тернопіль, вул. Степана Бандери</address></li>
+        </ul>
+        <ul class="footer-contacts">
+          <li class="footer-contacts__item"><svg class="footer-contacts__icon" width="20" height="20"><use href="./images/symbol-defs.svg#instagram"></use></svg><a class="footer-contacts__link" href="https://www.instagram.com/">Instagram</a></li>
+          <li class="footer-contacts__item"><svg class="footer-contacts__icon" width="20" height="20"><use href="./images/symbol-defs.svg#facebook"></use></svg><a class="footer-contacts__link" href="https://www.facebook.com/">Facebook</a></li>
+          <li class="footer-contacts__item"><svg class="footer-contacts__icon" width="20" height="20"><use href="./images/symbol-defs.svg#telegram"></use></svg><a class="footer-contacts__link" href="https://web.telegram.org/k/">Telegram</a></li>
+          <li class="footer-contacts__item"><svg class="footer-contacts__icon" width="20" height="20"><use href="./images/symbol-defs.svg#twitter"></use></svg><a class="footer-contacts__link" href="https://www.twitter.com/">Twitter</a></li>
+        </ul>
+        </div>
+      </section>
+    </footer>
+
+<!-- Cкрипт  -->
 
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
